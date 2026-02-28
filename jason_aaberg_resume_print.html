@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jason Aaberg - Senior Systems Engineer Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 11pt;
+      line-height: 1.4;
+      color: #333;
+      max-width: 8.5in;
+      margin: 0 auto;
+      padding: 0.5in;
+    }
+    header {
+      text-align: center;
+      border-bottom: 2px solid #2c3e50;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 24pt;
+      color: #2c3e50;
+      margin-bottom: 5px;
+    }
+    .title {
+      font-size: 14pt;
+      color: #34495e;
+      margin-bottom: 10px;
+    }
+    .contact {
+      font-size: 10pt;
+      color: #555;
+    }
+    .contact a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    h2 {
+      font-size: 12pt;
+      color: #2c3e50;
+      border-bottom: 1px solid #bdc3c7;
+      padding-bottom: 5px;
+      margin: 18px 0 10px 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    h3 {
+      font-size: 11pt;
+      color: #2c3e50;
+      margin: 12px 0 4px 0;
+    }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin: 12px 0 2px 0;
+    }
+    .job-title {
+      font-weight: bold;
+      color: #2c3e50;
+    }
+    .job-company {
+      font-weight: bold;
+    }
+    .job-date {
+      font-style: italic;
+      color: #666;
+      font-size: 10pt;
+    }
+    .job-role {
+      font-style: italic;
+      color: #555;
+      margin-bottom: 5px;
+    }
+    p {
+      margin-bottom: 8px;
+      text-align: justify;
+    }
+    .summary {
+      margin-bottom: 15px;
+    }
+    .project {
+      margin-bottom: 12px;
+    }
+    .project-title {
+      font-weight: bold;
+      color: #34495e;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .skill-item {
+      margin-bottom: 6px;
+    }
+    .skill-label {
+      font-weight: bold;
+      color: #2c3e50;
+    }
+    strong {
+      color: #2c3e50;
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 8px;
+    }
+    li {
+      margin-bottom: 3px;
+    }
+    @media print {
+      body {
+        padding: 0;
+      }
+      @page {
+        margin: 0.5in;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Jason Aaberg</h1>
+  <div class="title">Senior Systems Engineer | DevOps</div>
+  <div class="contact">
+    <a href="tel:9566481737">956-648-1737</a> &nbsp;|&nbsp;
+    <a href="mailto:aaberg@gmail.com">aaberg@gmail.com</a> &nbsp;|&nbsp;
+    <a href="https://www.linkedin.com/in/jason-aaberg/">linkedin.com/in/jason-aaberg</a>
+  </div>
+</header>
+
+<h2>Professional Summary</h2>
+<p class="summary">
+  Senior Systems Engineer with 15+ years of experience in cloud infrastructure, automation, and DevOps. Proven track record of delivering $200K+ annual cost savings through strategic migrations and infrastructure optimization. Built AI-powered automation systems that reduced helpdesk workload by 80%. Expertise in AWS, Terraform, Ansible, CI/CD, and enterprise-scale migrations.
+</p>
+
+<h2>Key Projects &amp; Achievements</h2>
+
+<div class="project">
+  <span class="project-title">AI-Powered Ticket Resolution System:</span>
+  Engineered an intelligent ticketing solution integrating Jira API with Confluence knowledge base. Built AI engine that analyzes 100K+ historical tickets, generates resolution paths with confidence scoring, and auto-responds to tickets above 75% confidence threshold. <strong>Reduced daily helpdesk ticket volume by 80%.</strong>
+</div>
+
+<div class="project">
+  <span class="project-title">Multi-AI Agent Server Documentation Platform:</span>
+  Architected custom solution to document 600+ legacy servers running 15+ years of undocumented code. Deployed agents across all servers enabling WinRM over custom ports with AWS Security Group restrictions. AI agents scan directories, identify .NET/ASP applications, and auto-generate documentation including code summaries, database connections, and credential discoveries.
+</div>
+
+<div class="project">
+  <span class="project-title">Citrix VDI to AWS AppStream Migration:</span>
+  Led first successful migration off 20-year Citrix platform. Migrated 30+ internally built applications serving 2000+ daily users to AWS AppStream. <strong>Reduced yearly licensing and server costs from $145K to $55K (62% savings).</strong> Enabled web browser access via SSO, eliminating Citrix client dependencies.
+</div>
+
+<div class="project">
+  <span class="project-title">Enterprise Identity Platform Migration:</span>
+  Led 5 major migration projects impacting 7000+ users. Migrated email and applications from Office 365 to Google Workspace. Transitioned identity management and migrated 130+ application integrations from AD/Okta to JumpCloud.
+</div>
+
+<div class="project">
+  <span class="project-title">Server Consolidation &amp; Linux Migration:</span>
+  Consolidated 120+ EOL servers down to fewer than 40 through strategic migrations. Migrated critical Windows servers to Linux. <strong>Reduced annual EC2 costs from $170K to $70K (59% savings).</strong>
+</div>
+
+<h2>Technical Skills</h2>
+<div class="skills-grid">
+  <div class="skill-item"><span class="skill-label">Cloud Platforms:</span> AWS (EC2, S3, AppStream, VPC, IAM, Security Groups, CloudWatch, Route53), GCP, Azure</div>
+  <div class="skill-item"><span class="skill-label">IaC &amp; Automation:</span> Terraform, Ansible, PowerShell, Bash, Python, Node.js</div>
+  <div class="skill-item"><span class="skill-label">Containers &amp; CI/CD:</span> Docker, CI/CD Pipelines, GitHub Actions</div>
+  <div class="skill-item"><span class="skill-label">Identity &amp; Access:</span> JumpCloud, Okta, Active Directory, SSO</div>
+  <div class="skill-item"><span class="skill-label">AI/ML Operations:</span> Multi-agent AI architectures, OpenAI API, Jira/Confluence APIs</div>
+  <div class="skill-item"><span class="skill-label">Databases:</span> PostgreSQL, SQL Server</div>
+  <div class="skill-item"><span class="skill-label">Servers:</span> Linux (Ubuntu, RHEL, CentOS), Windows Server, VMware, AWS EC2, AppStream, Workspaces</div>
+  <div class="skill-item"><span class="skill-label">Networking:</span> TCP/IP, VPN, DNS, Load Balancers, Firewalls, WAF, Security Groups, Cisco</div>
+</div>
+
+<h2>Professional Experience</h2>
+
+<div class="job-header">
+  <span class="job-company">Metropolis Technologies</span>
+  <span class="job-date">Feb. 2023 - Present</span>
+</div>
+<div class="job-role">Senior Systems Engineer</div>
+<p>
+  Manage and automate infrastructure for 600+ servers across hybrid cloud environment. Lead migration initiatives, automation projects, and AI-powered operational improvements. Designed AI-powered ticket resolution system reducing helpdesk volume by 80%. Built multi-agent AI platform to document legacy servers. Led Citrix VDI to AWS AppStream migration for 2000+ users achieving $90K annual savings. Spearheaded 5 enterprise migrations impacting 7000+ users. Consolidated 120+ EOL servers reducing EC2 costs by $100K annually.
+</p>
+
+<div class="job-header">
+  <span class="job-company">Valley Tech Services — Edinburg, Texas</span>
+  <span class="job-date">Nov. 2021 - Present</span>
+</div>
+<div class="job-role">Cloud Engineer Contractor (Part-time)</div>
+<p>
+  <strong>Pineapple Products:</strong> Restructured corporate cloud infrastructure. Migrated 100+ instances to Vultr, consolidated 50+ domains to Google Cloud. Performed security audit identifying 40,000+ publicly shared sensitive documents. Saved $12,000+ in monthly recurring fees.<br>
+  <strong>ACI Learning:</strong> Designed 30+ cloud lab environments for CompTIA Cloud+ Bootcamp used by 8,000+ students across AWS, Azure, and GCP.
+</p>
+
+<div class="job-header">
+  <span class="job-company">MediaScience Labs — Austin, Texas</span>
+  <span class="job-date">Jan. 2021 - Nov. 2021</span>
+</div>
+<div class="job-role">Cloud Engineer</div>
+<p>
+  Managed hybrid environment across Austin, Chicago, and NYC offices. Designed on-demand video streaming service for participant studies of major TV networks. Implemented AWS security best practices including MFA, KMS encryption, and S3 bucket policies.
+</p>
+
+<div class="job-header">
+  <span class="job-company">United States Gold Bureau — Austin, Texas</span>
+  <span class="job-date">May 2017 - March 2020</span>
+</div>
+<div class="job-role">IT Manager</div>
+<p>
+  Managed hybrid environment with on-prem AD, Exchange, and Citrix VDI for 150+ users. Designed network and security infrastructure for new facility. Configured company-wide SSO. Implemented NIST 800-53 IT control families.
+</p>
+
+<div class="job-header">
+  <span class="job-company">Observint Technologies — Austin, Texas</span>
+  <span class="job-date">July 2011 - May 2017</span>
+</div>
+<div class="job-role">Senior System Administrator</div>
+<p>
+  Managed hybrid environment with 100+ users, 300+ devices, AWS instances, and 1000+ domains. Designed and deployed 10+ network test labs. Deployed scalable, highly available systems on AWS.
+</p>
+
+<div class="job-header">
+  <span class="job-company">Rioplex Wireless — McAllen, Texas</span>
+  <span class="job-date">June 2008 - June 2011</span>
+</div>
+<div class="job-role">Support Technician</div>
+<p>
+  Supported 400+ end users. Configured networking equipment including Cisco, Juniper, Barracuda, and Ubiquiti devices.
+</p>
+
+<h2>Education</h2>
+<div class="job-header">
+  <span class="job-company">University of Texas Rio Grande Valley — Edinburg, Texas</span>
+  <span class="job-date">Class of 2007</span>
+</div>
+<p>Bachelor of Arts</p>
+
+</body>
+</html>
